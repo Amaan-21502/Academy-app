@@ -1,9 +1,9 @@
-import TopBar from "../components/TopBar"
+import Topbar from "../components/layout/Topbar"
 
 const homeLayout = ({children} : {children: React.ReactNode})=> {
   return (
     <>
-        <TopBar />
+        <Topbar />
         {children}
     </>
   )
