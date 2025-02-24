@@ -2,7 +2,7 @@ import { auth } from "@clerk/nextjs/server";
 import Link from "next/link";
 import { redirect } from "next/navigation";
 
-import { Button } from "@/app/components/ui/button";
+import { Button } from "@/components/ui/button";
 
 const CoursesPage = async () => {
   const { userId } = await auth();

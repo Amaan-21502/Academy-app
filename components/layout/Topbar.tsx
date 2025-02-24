@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link"; // IMPORTANT: Link is a component from Next.js, not lucide-react
 import { SearchIcon } from 'lucide-react';
-import { Button } from '../ui/button';
+import { Button } from "../ui/button";
 import { UserButton } from "@clerk/nextjs";
 import { useAuth } from "@clerk/clerk-react"; //it is a hook, demands client side
 
