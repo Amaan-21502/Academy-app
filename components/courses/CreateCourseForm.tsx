@@ -109,7 +109,7 @@ const CreateCourseForm = ({ categories }: CreateCourseFormProps) => {
                   <ComboBox 
                     options={categories} 
                     {...field} 
-                    onChangeAction={field.onChange} 
+                    onChange={field.onChange} 
                   />
                 </FormControl>
                 <FormMessage />
